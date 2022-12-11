@@ -6,7 +6,7 @@
 /*   By: amalliar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/30 13:30:47 by amalliar          #+#    #+#             */
-/*   Updated: 2020/09/30 17:08:36 by amalliar         ###   ########.fr       */
+/*   Updated: 2022/12/11 22:39:02 by apigeon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 
 void	mlx_set_font(t_xvar *xvar, t_win_list *win, char *name)
 {
-	static Font		font = 0;
+	static Font	font = 0;
 
 	if (font)
 		XUnloadFont(xvar->display, font);
