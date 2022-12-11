@@ -1,5 +1,19 @@
 [![Build](https://github.com/42Paris/minilibx-linux/actions/workflows/ci.yml/badge.svg)](https://github.com/42Paris/minilibx-linux/actions/workflows/ci.yml)
 
+# Infos
+
+This is a fork of the [minilibx](https://github.com/42Paris/minilibx-linux) because it is crap.
+This fork removes all compilation warning and 'clean' it in terms of code readability.
+I have done ONLY 'pretty' changes to make the code more readable I have not touched any of the logic
+behind ANY of the functions, the code remains intact, it passes all the tests and is not better in performance.
+It it juste without the annoying warnings and if you want to read the source code to understand functions
+I hope this will make it better (can't do magic, did not refactor the code).
+
+## DISCLAIMER
+
+Use this fork at your OWN RISKS, this is not the original minilibx and I am not responsible for any problems that
+can happen with it.
+
 This is the MinilibX, a simple X-Window (X11R6) programming API
 in C, designed for students, suitable for X-beginners.
 
